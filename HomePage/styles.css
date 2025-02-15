@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    text-align: center;
+    padding-top: 3rem;
+    background-color: rgb(92, 157, 167);
+}
+
+#logo{
+    width: 50%;
+    height: auto;
+}
+nav ul{
+    width: 80%;
+    height: 30px;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:1.5rem auto ;
+    border-radius: 2rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+nav ul li{
+    font-size: 1rem;
+    list-style-type: none;
+    cursor: pointer;
+}
+li a:hover{
+    color: rgb(82, 82, 82);
+}
+main{
+    width: 80%;
+    height: auto;
+    margin: 1rem auto;
+}
+main #Title{
+    border-radius: 1rem;
+    background: url("Photos/title.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: left;
+    padding: 1rem;
+}
+#Title h1{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 800;
+}
+#Title p{
+    font-size: 0.8rem;
+}
+#Menu{
+    display: flex;
+    gap: 2%;
+    margin-top: 1rem;
+}
+.Produit{
+    border-radius: 1rem;
+    background-color: burlywood;
+    color: rgb(64, 62, 62);
+    transition:
+    1s;
+}
+.first-title{
+    width: 80%;
+    margin: 1rem auto;
+    font-size: 1.3rem;
+    text-align: left;
+}
+.Produit:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+
+.Produit img{
+    width: 80%;
+    height: 150px;
+}
+.Produit p{
+    width: 80%;
+    font-size: 0.8rem;
+    text-align: left;
+    margin: 0.4rem auto;
+}
+button{
+    border: none;
+    padding: 1rem 2rem;
+    color: white;
+    background-color: green;
+    border-radius: 1.3rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+button:hover{
+    background-color: rgb(45, 190, 45);
+}
+hr{
+    width: 80%;
+    margin: auto;
+}
+footer img{
+    width: 25%;
+    height: auto;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 2rem auto;
+}
+
+footer .foo p{
+    color: white;
+    font-size: 1rem;
+}
